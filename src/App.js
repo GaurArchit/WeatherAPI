@@ -26,7 +26,9 @@ function App() {
   const [lat, setLat] = useState(0);
   const [log, setLong] = useState(0);
   const [weath, dispatch] = useReducer(reducer, initialState);
-
+  console.log("dassad");
+  console.log("dassad");
+  console.log("dassad");
   const handleLat = (e) => {
     setLat(e.target.value);
   };
